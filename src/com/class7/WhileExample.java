@@ -17,6 +17,7 @@ public class WhileExample {
 			isRain=Scan.nextBoolean();
 		}while(!isRain);
 		System.out.println("Go to park");
+		
 	}
 
 }

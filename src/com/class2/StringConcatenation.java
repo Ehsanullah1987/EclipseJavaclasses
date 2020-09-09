@@ -15,7 +15,7 @@ public static void main(String[]arg) {
 	int num1=12;
 	int num2=13;
 	// The value of num1=_ and the value of num2=_
-	System.out.println("The value of num1="+num1+" and the value of num2=+num2");
+	System.out.println("The value of num1="+num1+" and the value of num2="+num2);
 	
 	String fruit="banana";
 	char dollar='$';

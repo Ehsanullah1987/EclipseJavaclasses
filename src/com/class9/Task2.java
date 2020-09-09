@@ -1,29 +1,29 @@
 package com.class9;
-
-​
-
-import java.util.Scanner;​
-
+import java.util.Scanner;
 public class Task2 {
 	public static void main(String[] args) {
-​
-		Scanner scan;
-		int secretNumber, guessNumber;
-​
-		scan = new Scanner(System.in);
-		secretNumber = 12;
-		// for (int i=0; i<20; i++) -> you are limiting user to 20 inputs
-		do {
-			System.out.println("Please guess my number from 1 to 20");
-			guessNumber = scan.nextInt();
-​
-			if (guessNumber < secretNumber) {
-				System.out.println("Your number is too small");
-			} else if (guessNumber > secretNumber) {
-				System.out.println("Your number is too large");
+//		Write a guessing game where the user has to guess a secret number between 1 and 20.
+//		After  every  guess  input,  the  program  tells the  user  whether  their  number  was  too large  or  too  small. 
+//		The  program  will  keep asking  the  user  to  enter  the  number  until he  finds  the  correct  number.  
+//		When  the correct answer is found the system should display "Congratulations!!. You got it!"
+		Scanner scan =new Scanner(System.in);
+		System.out.println("Please enter number from 1 to 20 to findd the secrect Number"); {
+			
+			int secretNum=16;
+			
+			
+			for (int i=1; i<=20; i++) {
+				
+				int guessNum=scan.nextInt();
+			if(guessNum<secretNum) {
+				
+				System.out.println("number is small, so add anothr number Mr.Tester");
+			}else if(guessNum>secretNum){
+				System.out.println(" number is large add another number Mr.Tester");
+			}else if(guessNum ==secretNum) {
+				System.out.println("Gongrates");
 			}
-		} while (guessNumber != secretNumber);
-​
-		System.out.println("Congratulations you got it");
-	}
-}
+		}
+		}
+		}
+		}

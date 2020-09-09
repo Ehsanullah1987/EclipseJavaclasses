@@ -7,7 +7,7 @@ public class StringExample {
 		String address="123 Test Drive";
 		String salary="150,000 US DOLLARS";
 				
-		String birthdate="12/121990";
+		String birthdate="12/12/1990";
 		
 		System.out.println(name);
 	}

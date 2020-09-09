@@ -9,6 +9,7 @@ public class ArithmeticOperations {
     	 int num1, num2;
     	 num1=20;
     	 num2=10;
+    	// How can we print value of num1 and num2 together.
     	 
     	 System.out.println(num1+num2);  //30
     	 System.out.println(num1-num2);  //10
@@ -16,7 +17,7 @@ public class ArithmeticOperations {
     	 System.out.println(num1/num2); // 2
     	 
     	 
-    	 // How can we print value of num1 and num2 together.
+    	 
     	 
     	 System.out.println(num1+""+num2);
     	 

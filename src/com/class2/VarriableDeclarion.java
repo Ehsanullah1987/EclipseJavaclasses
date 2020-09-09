@@ -2,7 +2,7 @@ package com.class2;
 
 public class VarriableDeclarion {
 public static void main(String[]arg) {
-	//1. declaring vaable num1 that will hold value of int and 
+	//1. declaring variable num1 that will hold value of int and 
 	//assigning value of 123 to it
 	int num1= -125;
 	int num2= 6767;

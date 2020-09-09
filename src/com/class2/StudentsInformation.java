@@ -23,9 +23,9 @@ public class StudentsInformation {
 		 city="South Street";
 		 state="Washinton";
 		phoneNumber=  5717717171l;
-		System.out.println("My Name is"+fName);
-		System.out.println("I live in city fo"+city);
-		System.out.println("My phone number is"+phoneNumber);
+		System.out.println("My Name is "+fName);
+		System.out.println("I live in city of "+city);
+		System.out.println("My phone number is "+phoneNumber);
 				
 		
 		

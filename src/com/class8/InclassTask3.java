@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	String card;
 	Scanner scan=new Scanner(System.in);
 	for (int a=1; a<=10; a++) {
-		System.out.println();
+		System.out.println(a);
 	}
 }
 }

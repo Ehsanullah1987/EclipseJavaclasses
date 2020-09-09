@@ -3,9 +3,9 @@ package com.class10;
 public class ArraySwitchCase {
 public static void main(String[] args) {
 	String[] countries= {"Afghanistan", "Pakistan", "Iran", "Russia", "Turkey", "America"};
-	for(int i=0; i<countries.length; i++);
+	for(int i=0; i<countries.length; i++) {
 String capitalName;
-	switch (countries[5]) {
+	switch (countries[i]) {
 	case "Afghanistan":
 		capitalName=("Kabul");
 		break;
@@ -25,5 +25,5 @@ String capitalName;
 		System.out.println("Washington D C");
 	}
 	}
-
+}
 }

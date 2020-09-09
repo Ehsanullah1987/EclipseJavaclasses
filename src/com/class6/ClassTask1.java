@@ -9,7 +9,14 @@ public static void main(String[] args) {
 	String month;
 	month = Scan.nextLine();
 	if(month.equals("January") || month.equals("February") || month.equals("March")) {
-		season="Winter";
+		System.out.println("Winter");
+	}else if(month.equals("April") ||month.equals("May") || month.equals("June")) {
+			System.out.println("Spring");
+		}else if(month.equals("July") ||month.equals("August") || month.equals("Septepber")) {
+			System.out.println("Summer");
+		}else {
+			System.out.println("Fall");
+		}
 	}
 }
-}
+

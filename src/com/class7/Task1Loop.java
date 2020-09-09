@@ -14,6 +14,7 @@ public class Task1Loop {
 		while(i2<100) {
 			if(i2%2==0) {
 				System.out.println(i2);
+			
 			}
 			i2+=2;
 		}

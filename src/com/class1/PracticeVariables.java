@@ -20,6 +20,8 @@ public class PracticeVariables {
 		double d1=4545.454454;
 		boolean hungry= true;
 		boolean rain= false;
+		
 		System.out.println(hungry+" "+rain);
+		
 	}
 }
